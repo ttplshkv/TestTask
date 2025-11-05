@@ -13,7 +13,7 @@ function onDayClick(dateIso) {
 
 <template>
   <div style="padding:24px">
-    <div style="display:flex;gap:8px;align-items:center;margin-bottom:12px;">
+    <div style="display: flex; gap: 8px; align-items: center; margin-bottom: 12px;">
       <label>Язык:
         <select v-model="locale">
           <option value="ru-RU">ru-RU</option>
